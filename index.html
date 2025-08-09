@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weatherContainer">
+        <h1>🌤 Weather Finder</h1>
+        <div class="inputRow">
+            <input type="text" id="location" placeholder="Enter city name" style="color:black;">
+            <button id="btn" onclick="getWeather()">Go</button>
+        </div>
+        <div id="resultContainer">
+            <div class="temp"></div>
+            <div class="desc"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
