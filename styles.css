@@ -19,12 +19,12 @@ body {
 /* Animated Gradient Glow Card */
 .weatherContainer {
     position: relative;
-    background:maroon;
+    background:;
     padding: 40px;
     border-radius: 20px;
     backdrop-filter: blur(12px);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    width: 400px;
+    width: 1400px;
     text-align: center;
     overflow: hidden;
 }
